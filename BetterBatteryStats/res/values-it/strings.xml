@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
+
 <string name="plugin_name">Better Battery Stats</string>
 <string name="message_hint">Messaggio Toast programmato</string>
 <string name="message_hint_saveref">Salva un Riferimento Personalizzato</string>
@@ -9,7 +10,7 @@
 <string name="message_hint_stat_type">Tipo Statistica</string>
 <string name="message_enable_root">Abilitando le funzioni di root si assume che il telefono sia rootato.\nSiate sicuri di dare i diritti SU alle statistiche di Allarmi e Rete.\nSe tali diritti non permangono è colpa dell\'app SU e non di BBS.\nContinuare?</string>
 <string name="message_enable_active_mon">Il monitoraggio Attivo causa un incremento dei wakeup e dei calcoli, utilizzare con cautela.\nContinuare?</string>
-<string name="message_first_launch">Un riferimento \'sconnesso\' è stato creato. Ogni volta che connetti/sconnetti il telefono questo riferimento viene sovrascritto</string>
+<string name="message_first_launch">Un riferimento \'sconnesso\' è stato creato. Quando connetti/sconnetti il tuo telefono questo riferimento viene sovrascritto</string>
 <string name="message_copied_to_clipboard">%s è stato copiato negli appunti</string>
 <string name="message_no_hist_froyo">Sfortunatamente Froyo non supporta lo storico dei dati</string>
 <string name="message_no_appops">AppOps non esiste sulla tua ROM</string>
@@ -38,6 +39,7 @@
 <string name="label_import_export_prefs">Importa/Esporta le Preferenze da/a %s</string>
 <string name="label_import_prefs">Importa</string>
 <string name="label_export_prefs">Esporta</string>
+
 <string name="label_hist_time">Tempo</string>
 <string name="label_hist_battery">Batteria</string>
 <string name="label_hist_power">Carica</string>
@@ -48,6 +50,7 @@
 <string name="label_hist_bluetooth">BT</string>
 <string name="label_hist_incall">Chiamata</string>
 <string name="label_hist_scanning">Ricerca</string>
+
 <string name="label_graph_battery">Batteria</string>
 <string name="label_graph_power">In carica</string>
 <string name="label_graph_screen">Schermo On</string>
@@ -57,28 +60,39 @@
 <string name="label_graph_bluetooth">Bluetooth</string>
 <string name="label_graph_incall">In chiamata</string>
 <string name="label_graph_scanning">In ricerca</string>
-<string name="label_widget_since">Da:</string>
-<string name="label_widget_deep_sleep">Inattivo</string>
-<string name="label_widget_awake">Attivo:</string>
-<string name="label_widget_screen_on">Schermo On:</string>
-<string name="label_widget_kernel_wakelock">KWL:</string>
-<string name="label_widget_partial_wakelock">PWL:</string>
+
+<string name="label_widget_deep_sleep">Deep Sleep</string>
+<string name="label_widget_awake">Attivo</string>
+<string name="label_widget_screen_on">Schermo on</string>
+<string name="label_widget_kernel_wakelock">KWL</string>
+<string name="label_widget_partial_wakelock">PWL</string>
+<string name="label_widget_deep_sleep_short">DS</string>
+<string name="label_widget_awake_short">Att</string>
+<string name="label_widget_screen_on_short">Sch</string>
+<string name="label_widget_kernel_wakelock_short">KWL</string>
+<string name="label_widget_partial_wakelock_short">PWL</string>
+
+
 <string name="label_battery">Batteria</string>
 <string name="label_name">Nome</string>
 <string name="label_description">Descrizione</string>
 <string name="label_package_name">Nome Pacchetto</string>
 <string name="label_on_on_android_4_3plus">Disponibile solo su Android 4.3+</string>
+
 <string name="label_permisions_dangerous">Permesso marcato come \'pericoloso\'</string>
 <string name="label_permisions_system">Permessi per \'app di sistema\'</string>
 <string name="label_permisions_normal">Permessi normali</string>
+
 <string name="pref_dashclock_default_stat_type_summary">Imposta la statistica da mostrare nel dashclock</string>
 <string name="pref_dashclock_fallback_stat_type_summary">Imposta la statistica secondaria da mostrare nel dashclock se la primaria non ha un riferimento</string>
 <string name="label_awake_abbrev">att.</string>
 <string name="label_button_share">Condividi...</string>
 <string name="label_button_save">Salva</string>
 <string name="label_button_cancel">Cancella</string>
-<string name="label_button_application_settings">Settaggi</string>
-<string name="label_button_appops">Opzioni</string>
+<string name="label_button_application_settings">Settaggi Apllicazione</string>
+<string name="label_button_appops">App Ops</string>
+
+
 <string name="title_share_dialog">Condividi dati come...</string>
 <string name="text_since">Da</string>
 <string name="label_preferences">Settaggi</string>
@@ -103,19 +117,28 @@
 <string name="label_button_ok">OK</string>
 <string name="label_tab_package">Paccetto</string>
 <string name="label_tab_permissions">Permessi</string>
-<string name="label_tab_services">Servizi</string>
+<string name="label_tab_services">Servizi</string
+
 <!-- About screen -->
 <string name="label_about_author">di asksven</string>
 <string name="label_about_courtesy">Grafici grazie a @cri</string>
+<string name="label_about_translations">Translations</string>
+<string name="label_about_translation1">Russian by gaich @ xda</string>
+<string name="label_about_translation2">Spanish by @vldesco</string>
+<string name="label_about_translation3">Italian by code010101 @ xda</string>
+<string name="label_about_translation4">Croatian by seky2205 @ xda</string>
+<string name="label_about_translation5">French by xavihernandez @ xda</string>
 <string name="label_about_follow">Seguitemi su Twitter</string>
-<string name="label_about_rate">Valuta / Commenta su Google Play</string>
+<string name="label_about_rate">Dai una Valutazione/Commenta su Google Play</string>
+
 <!-- Preferences -->
 <string name="label_theme_dark">Scuro</string>
 <string name="label_theme_light">Chiaro</string>
 <string name="pref_theme_title">Tema</string>
 <string name="pref_theme_summary">Cambia tema</string>
+
 <!-- System app activity -->
-<string name="expl_system_app">In Android 4.4 Google ha rimosso il permesso alle app normali di accedere alle statistiche della batteria.\n\nSi raccomanda di installare BetterBatteryStats come app di sistema(non impedisce di intallare aggiornamenti).\n\nPotrebbe essere necessario disinstallare/reinstallare come app di sistema se i permessi cambiano.</string>
+<string name="expl_system_app">In Android 4.4 Google ha rimosso il permesso alle app normali di accedere alle statistiche della batteria.\n\nSi raccomanda di installare BetterBatteryStats come app di sistema(non impedisce di intallare aggiornamenti).\n\nPotrebbe essere necessario disinstallare/reinstallare BBS come app di sistema se i permessi cambiano.</string>
 <string name="expl_system_app_workaround">Se l\'installazione diretta dall\'app fallisce provate questa soluzione</string>
 <string name="install_system_app">Installa come app di sistema</string>
 <string name="uninstall_system_app">Disinstalla come app di sistema</string>
@@ -132,11 +155,13 @@
 <string name="info_pref_export_success">Le preferenze sono state salvate in %s</string>
 <string name="info_pref_import_success">Le preferenze sono state importate da %s</string>
 <string name="info_pref_import_export_failed">L\'operazione è fallita</string>
+
 <string name="info_deleting_refs">Le preferenze vengono cancellate e ricalcolate</string>
 <string name="info_fallback_to_boot">Ripiego su \'Dal Boot\'</string>
 <string name="info_fallback_to_default">Ripiego su riferimento di default</string>
 <string name="label_granted">permesso</string>
 <string name="label_not_granted">non permesso</string>
+
 <!-- Preferences labels and texts -->
 <string name="pref_section_display">Mostra</string>
 <string name="pref_filter_data_title">Filtra statistiche</string>
@@ -191,6 +216,8 @@
 <string name="pref_root_features_title">Funzioni di Root</string>
 <string name="pref_ignore_system_app_summary">Ignora la rilevazione dell\'app di sistema (per modulo XPosed \'Abilita BATTERY_STATS\' utenti)</string>
 <string name="pref_ignore_system_app_title">Non rilevare app di sistema</string>
+
+
 <string name="pref_developer_title">Abilita durante la carica</string>
 <string name="pref_developer_summary">Abilita statistiche durante la carica (attenzione, le statistiche potrebbero essere inconsistenti)</string>
 <string name="pref_auto_refresh_title">Auto refresh</string>
@@ -211,7 +238,8 @@
 <string name="pref_screen_system_app_title">App di sistema</string>
 <string name="pref_screen_system_app_summary">Installa come App di Sistema</string>
 <string name="pref_screen_import_export_title">Importa/Esporta</string>
-<string name="pref_screen_import_export_summary">Importa e Esporta le Preferenze</string>
+<string name="pref_screen_import_export_summary">Importa e Esporta le Impostazioni</string>
+
 <string name="pref_section_settings">Settaggi</string>
 <string name="pref_screen_widgets_title">Widgets</string>
 <string name="widget_refresh_freq_title">Frequenza di Refresh</string>
@@ -240,27 +268,33 @@
 <string name="small_widget_refresh_on_tap_summary">Toccando il widget si effettua il refresh (se disabilitato, viene invece aperta l\'app)</string>
 <string name="thumbnail_size_title">Dimensione Thumbnail</string>
 <string name="medium_font_size_title">Dimensione Font Medio</string>
+
 <!-- stats error / warnings -->
 <string name="NO_STATS_WHEN_CHARGING">Connesso: nessuna statistica</string>
 <string name="NO_ROOT_ERR">Questa statistica richiede il root</string>
 <string name="NO_PERM_ERR">Questa statistica richiede il permesso BATTERY_STATS</string>
 <string name="NO_REF_ERR">Nessun riferimento è stato ancora impostato</string>
 <string name="NO_STATS">Nessuna statistica è stata ancora raccolta</string>
-<string name="FILE_ACCESS_ERROR">Il file non può esssere letto</string>
+<string name="FILE_ACCESS_ERROR">Il file non può essere letto</string>
+
 <!-- from arrays.xml -->
 <string name="stat_type_label_since_charged">Da carico</string>
 <string name="stat_type_label_since_unplugged">Da sconnesso</string>
 <string name="stat_type_label_since_custom">Dal riferimento personalizzato</string>
 <string name="stat_type_label_since_screen_off">Da Schermo Spento</string>
 <string name="stat_type_label_since_boot">Dal Boot</string>
+
+
 <string name="widget_freq_label_none">Nessuno</string>
 <string name="widget_freq_label_5">5 Min.</string>
 <string name="widget_freq_label_15">15 Min.</string>
 <string name="widget_freq_label_30">*30 Min.</string>
 <string name="widget_freq_label_60">60 Min.</string>
+
 <string name="widget_fontsize_16">Extra (16)</string>
 <string name="widget_fontsize_14">Grande (14)</string>
 <string name="widget_fontsize_12">Normale (12)</string>
 <string name="widget_fontsize_10">*Piccolo (10)</string>
 <string name="widget_fontsize_8">Minuscolo (8)</string>
+
 </resources>
