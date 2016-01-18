@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
-    <release version="2.1.0.0" versioncode="72">
-        <change>supporto per Android Marshmallow</change>
-        <change>nuova icona</change>
-        <change>nuovo widget reattivo</change>
-        <change>ottimizzazione dei vecchi widget</change>
-        <change>nuova versione della app di sistema</change>
-        <change>corretto mancato aggiornamento del widget a schermo acceso</change>
-        <change>corretti vari bug riportati nei crash report</change>
-        <change>corretti grafici non funzionanti in 5.1</change>
-        <change>corretta finestra di dialogo per la valutazione</change>
-        <change>corretti i totali mostrati nella finestra Processi</change>
-        <change>nuova decodifica per i kernel wakelock di LG G3</change>        
+    <release version="2.2.0.0B5" versioncode="77">
+        <change>Internazionalizzazione</change>
+        <change>Aggiunta gestione dei wakelock del kernel per LG G4</change>
+        <change>Aggiunta opzione per selezionare la directory di destinazione dei dumpfile, ecc. Richiede OI FileManager</change>
+        <change>Fixed touch feedback to extend to the whole row</change>
+    </release>
+    
+    <release version="2.2.0.0B4" versioncode="76">
+        <change>Snackbar al posto dei messaggi Toast</change>
+        <change>Corretti vari problemi legati a terminali senza root (quando installata come app di sistema)</change>
+        <change>Corretti i layout del widget per linguaggi RTL</change>
+    </release>
+    
+    <release version="2.2.0.0B3" versioncode="75">
+        <change>Le statistiche modalita\' Doze sono in microsecondi invece che millisecondi</change>
+        <change>Le statistiche di Rete sono ora disponibili anche per terminali senza root (quando installata come app di sistema)</change>
+        <change>Aggiunti sensori e tempi di sync alle altre statistiche</change>
+    </release>
+    
+    <release version="2.2.0.0B2" versioncode="74">
+        <change>Aggiunte statistiche BT piu\' dettagliate per Marshmallow</change>
+        <change>Corretta la mancata visualizzazione delle statistiche quando mancano i permessi di root</change>
+		<change>Aggiunte statistiche modalita\' Doze per Marshmallow</change>
+    </release>
+    
+    <release version="2.2.0.0B1" versioncode="73">
+        <change>Sperimentale: ottenere i permessi BATTERY_INFO senza app di sistema (solo root)</change>
+        <change>Rimossa necessita\' di root (quando installata come app di sistema)</change>
+        <change>Corretti accessi API e non-API agli allarmi su Marshmallow</change>
+        <change>Corrette varie condizioni FC dai rapporti di crash di Google Play</change>
+        <change>Internazionalizzazione</change>
+        <change>Spostati crediti e changelog alla schermata Info</change> 
     </release>
 
 </changelog>
