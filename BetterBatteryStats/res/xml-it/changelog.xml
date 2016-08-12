@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release version="2.2.0.0RC1" versioncode="79">
+        <change>I18N</change>
+        <change>"Other" sostituito con "Summary"</change>
+        <change>Aggiunto campo "nota" alla finestra di dialogo per condividere il dumpfiles</change>
+        <change>Aggiornato alla piu\' recente android-compat-lib</change>
+        <change>E\' ora possibile scorrere i dettagli degli Allarmi</change>
+        <change>Cambiato il carattere per allinearsi alle linee guida e supportare meglio i dispositivi piccoli, corretti alcuni errori di spaziatura</change>
+        <change>I formati txt and json del dumpfile sono ora compresi in un unico file</change>
+        <change>Aggiunte le statistiche GPS in Summary</change>
+    </release>
+    
     <release version="2.2.0.0B6" versioncode="78">
         <change>I18N</change>
         <change>Corretto wakelock del kernel in modalita\' API/senza root</change>
