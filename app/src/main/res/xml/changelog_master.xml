@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
     <release version="2.4" versioncode="94">
-        <change>Fixed preferences export/import</change>
-        <change>Root only to be used when installing</change>
+        <change>Corrette preferenze esportazione/importazione</change>
+        <change>Root necessario solo per l'installazione</change>
     </release>
 
 </changelog>
